@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class CalendarHandlingwithJS {
     public static void main(String args[]) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "./chromedriver_78.exe");
+        System.setProperty("webdriver.chrome.driver1", "./chromedriver_78.exe");
         WebDriver driver = new ChromeDriver();
 
         driver.manage().window().maximize();
